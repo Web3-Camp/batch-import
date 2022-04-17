@@ -1,0 +1,14 @@
+[
+    {
+        "index": "0",
+        "name": "Check Allowance",
+
+        "abi": "./abi/erc20.json",
+        "contract": "0xCAa09e779408Db48C6ad303e8ac93bfD0d89F753",
+        "method": "allowance",
+        "params": [
+            "---msg.sender---",
+            "0x369fa734d16b0003836da3fa473318a05e136465"
+        ]
+    }
+]
