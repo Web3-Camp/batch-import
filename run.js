@@ -134,8 +134,8 @@ const execute = async () => {
         await runCommands(commands);
     
     // commands file
-    } else if (args.command) {
-        let contents = fs.readFileSync(args.command);
+    } else if (args.commandsFile) {
+        let contents = fs.readFileSync(args.commandsFile);
         let commands = JSON.parse(contents);
         await runCommands(commands);
 
